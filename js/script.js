@@ -2,7 +2,6 @@ $(document).ready(function(){
     
     let allParagraphs = $('p');
     let lastParagraph = allParagraphs[allParagraphs.length-1];
-    // let firstParagraph = allParagraphs[0];
 
     $(lastParagraph).after('<button id="onEnd">Na Koniec</button>');
     
